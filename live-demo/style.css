@@ -74,6 +74,15 @@ button:hover {
   white-space: nowrap;
 }
 
+.request-url {
+  padding: 12px;
+  border: 1px solid #ccd3dd;
+  border-radius: 8px;
+  background: #f5f7fb;
+  word-break: break-all;
+  font-family: monospace;
+}
+
 .note {
   margin-top: 18px;
   font-size: 14px;
