@@ -120,26 +120,11 @@ fetch(
 
 ## Getting Started
 
-Get your API key and start using the Commodity Prices API in minutes.
+Get instant access to commodity market data through a simple JSON API.
 
-🔑 API Access & Pricing
-https://fin2dev.com/pricing/
+🔑 [Get API Access](https://fin2dev.com/pricing/)
 
-📚 Documentation
-https://fin2dev.com/documentation/#commodities
-
----
-
-## Related Resources
-
-🌐 Website
-https://fin2dev.com/
-
-📝 Blog
-https://fin2dev.com/blog/
-
-📖 API Documentation
-https://fin2dev.com/documentation/
+📚 [View Documentation](https://fin2dev.com/documentation/#commodities)
 
 ---
 
@@ -147,14 +132,11 @@ https://fin2dev.com/documentation/
 
 If you have any questions about the API, pricing, data coverage or integration, feel free to contact us.
 
-🌐 Website
-https://fin2dev.com/
+🌐 [Website](https://fin2dev.com/)
 
-📧 Contact Form
-https://fin2dev.com/contact/
+📧 [Contact Form](https://fin2dev.com/contact/)
 
-🐙 GitHub Organization
-https://github.com/fin2dev
+🐙 [GitHub Profile](https://github.com/fin2dev)
 
 ---
 
