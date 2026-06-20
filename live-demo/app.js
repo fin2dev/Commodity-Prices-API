@@ -26,16 +26,21 @@ document.getElementById('getDataBtn').addEventListener('click', async function (
 
 document.getElementById('copyUrlBtn').addEventListener('click', async function () {
   const requestUrlBox = document.getElementById('requestUrl');
+  const url = requestUrlBox.textContent.trim();
 
-  if (!requestUrlBox.value) {
+  if (!url || url === 'Request URL will appear here') {
     return;
   }
 
-  await navigator.clipboard.writeText(requestUrlBox.textContent);
+  try {
+    await navigator.clipboard.writeText(url);
 
-  this.textContent = 'Copied!';
+    this.textContent = 'Copied!';
 
-  setTimeout(() => {
-    this.textContent = 'Copy URL';
-  }, 1500);
+    setTimeout(() => {
+      this.textContent = 'Copy URL';
+    }, 1500);
+  } catch (error) {
+    console.error(error);
+  }
 });
