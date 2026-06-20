@@ -27,7 +27,7 @@ document.getElementById('getDataBtn').addEventListener('click', async function (
 document.getElementById('copyUrlBtn').addEventListener('click', async function () {
   const requestUrlBox = document.getElementById('requestUrl');
 
-  if (!requestUrlInput.value) {
+  if (!requestUrlBox.value) {
     return;
   }
 
