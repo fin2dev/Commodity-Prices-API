@@ -11,7 +11,7 @@ document.getElementById('getDataBtn').addEventListener('click', async function (
 
   const url = `https://apidata.fin2dev.com/v1/commodities?key=${encodeURIComponent(apiKey)}&commodity_name=${encodeURIComponent(commodityName)}`;
 
-  requestUrlInput.value = url;
+  requestUrlBox.textContent = url;
   responseBox.textContent = 'Loading...';
 
   try {
