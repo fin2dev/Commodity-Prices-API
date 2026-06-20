@@ -46,14 +46,32 @@ button {
   padding: 12px 22px;
   border: none;
   border-radius: 8px;
-  background: #1f6feb;
+  background: #78C2AD;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #1557b0;
+  background: #5fae98;
+}
+
+.url-box {
+  margin-top: 18px;
+}
+
+.url-row {
+  display: flex;
+  gap: 10px;
+}
+
+.url-row input {
+  flex: 1;
+}
+
+.url-row button {
+  margin-top: 0;
+  white-space: nowrap;
 }
 
 .note {
