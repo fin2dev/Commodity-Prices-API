@@ -12,7 +12,7 @@
   <h1>Commodity Prices API Demo</h1>
 
   <p class="description">
-    Test the Fin2Dev Commodity Prices API directly from your browser.
+    Test the Fin2Dev Commodity Prices API directly from your browser.<br>
     Enter your API key and select a commodity.
   </p>
 
@@ -40,6 +40,14 @@
     <a href="https://fin2dev.com/pricing/" target="_blank" rel="noopener">Get API access here</a>.
   </p>
 
+  <div class="url-box">
+    <label for="requestUrl">Request URL</label>
+    <div class="url-row">
+      <input type="text" id="requestUrl" readonly placeholder="Request URL will appear here">
+      <button id="copyUrlBtn" type="button">Copy URL</button>
+    </div>
+  </div>
+  
   <h2>API Response</h2>
   <pre id="responseBox">Response will appear here...</pre>
 </div>
