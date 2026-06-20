@@ -68,21 +68,51 @@ https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=crude
 <details>
 <summary>Python Example</summary>
 
-Python example will be added here.
+```python
+import requests
+
+url = "https://apidata.fin2dev.com/v1/commodities"
+
+params = {
+    "key": "YOUR_API_KEY",
+    "commodity_name": "crude_oil"
+}
+
+response = requests.get(url, params=params)
+
+print(response.json())
+```
 
 </details>
 
 <details>
 <summary>PHP Example</summary>
 
-PHP example will be added here.
+```php
+<?php
+
+$url = 'https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=crude_oil';
+
+$response = file_get_contents($url);
+
+echo $response;
+
+?>
+```
 
 </details>
 
 <details>
 <summary>JavaScript Example</summary>
 
-JavaScript example will be added here.
+```javascript
+fetch(
+  'https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=crude_oil'
+)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+```
 
 </details>
 
