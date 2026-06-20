@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commodity Prices API Demo | Fin2Dev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Commodity Prices API Demo</h1>
+
+  <p class="description">
+    Test the Fin2Dev Commodity Prices API directly from your browser.
+    Enter your API key and select a commodity.
+  </p>
+
+  <label for="apiKey">API Key</label>
+  <input type="text" id="apiKey" placeholder="Enter your API key">
+
+  <label for="commodity">Commodity</label>
+  <select id="commodity">
+    <option value="gold">Gold</option>
+    <option value="silver">Silver</option>
+    <option value="crude_oil">Crude Oil</option>
+    <option value="natural_gas">Natural Gas</option>
+    <option value="copper">Copper</option>
+    <option value="aluminum">Aluminum</option>
+    <option value="lithium">Lithium</option>
+    <option value="corn">Corn</option>
+    <option value="wheat">Wheat</option>
+    <option value="coffee">Coffee</option>
+  </select>
+
+  <button id="getDataBtn">Get Data</button>
+
+  <p class="note">
+    Don't have an API key?
+    <a href="https://fin2dev.com/pricing/" target="_blank" rel="noopener">Get API access here</a>.
+  </p>
+
+  <h2>API Response</h2>
+  <pre id="responseBox">Response will appear here...</pre>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
