@@ -2,7 +2,7 @@ document.getElementById('getDataBtn').addEventListener('click', async function (
   const apiKey = document.getElementById('apiKey').value.trim();
   const commodityName = document.getElementById('commodity').value;
   const responseBox = document.getElementById('responseBox');
-  const requestUrlInput = document.getElementById('requestUrl');
+  const requestUrlBox = document.getElementById('requestUrl');
 
   if (!apiKey) {
     responseBox.textContent = 'Please enter your API key.';
@@ -25,13 +25,13 @@ document.getElementById('getDataBtn').addEventListener('click', async function (
 });
 
 document.getElementById('copyUrlBtn').addEventListener('click', async function () {
-  const requestUrlInput = document.getElementById('requestUrl');
+  const requestUrlBox = document.getElementById('requestUrl');
 
   if (!requestUrlInput.value) {
     return;
   }
 
-  await navigator.clipboard.writeText(requestUrlInput.value);
+  await navigator.clipboard.writeText(requestUrlBox.textContent);
 
   this.textContent = 'Copied!';
 
