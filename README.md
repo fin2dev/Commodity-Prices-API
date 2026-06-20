@@ -63,6 +63,14 @@ https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=crude
 }
 ```
 
+## Live Demo
+
+Try the Commodity Prices API directly in your browser.
+
+🚀 [Try Commodity Prices API Demo](https://fin2dev.github.io/Commodity-Prices-API/live-demo/)
+
+Enter your API key, select a commodity and instantly view the JSON response.
+
 ## Code Examples
 
 <details>
