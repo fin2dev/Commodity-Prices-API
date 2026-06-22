@@ -137,6 +137,8 @@ https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=silve
 }
 ```
 
+Learn more: [Silver Price API](https://fin2dev.com/blog/silver-price-api/)
+
 </details>
 
 <details>
@@ -169,6 +171,8 @@ https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=crude
 }
 ```
 
+Learn more: [Oil Price API](https://fin2dev.com/blog/oil-price-api/)
+
 </details>
 
 <details>
@@ -200,6 +204,8 @@ https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=natur
   }
 }
 ```
+
+Learn more: [Natural Gas Price API](https://fin2dev.com/blog/natural-gas-price-api/)
 
 </details>
 
@@ -270,6 +276,7 @@ https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=corn
 Learn more: [Agricultural Commodities Price API](https://fin2dev.com/blog/agricultural-commodities-price-api/)
 
 </details>
+
 
 ## Code Examples
 
