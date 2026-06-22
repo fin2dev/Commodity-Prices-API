@@ -71,6 +71,206 @@ Try the Commodity Prices API directly in your browser.
 
 Enter your API key, select a commodity and instantly view the JSON response.
 
+## Commodity Examples
+
+<details>
+<summary>Gold Price API Example</summary>
+
+Get real-time and historical gold price data in JSON format.
+
+**Example Request**
+
+```text
+https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=gold
+```
+
+**Example Response**
+
+```json
+{
+  "result": {
+    "output": [
+      {
+        "commodity_name": "gold",
+        "commodity_unit": "usd/t oz",
+        "commodity_price": "3367.12",
+        "price_change_day": "12.45",
+        "percentage_day": "0.37%",
+        "datetime": "2025-08-26T11:23:00.000"
+      }
+    ]
+  }
+}
+```
+
+Learn more: [Gold Price API](https://fin2dev.com/blog/gold-price-api/)
+
+</details>
+
+<details>
+<summary>Silver Price API Example</summary>
+
+Get silver price data for financial dashboards, market analysis and commodity tracking tools.
+
+**Example Request**
+
+```text
+https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=silver
+```
+
+**Example Response**
+
+```json
+{
+  "result": {
+    "output": [
+      {
+        "commodity_name": "silver",
+        "commodity_unit": "usd/t oz",
+        "commodity_price": "34.90",
+        "price_change_day": "0.21",
+        "percentage_day": "0.61%",
+        "datetime": "2025-08-26T11:23:00.000"
+      }
+    ]
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>Oil Price API Example</summary>
+
+Get crude oil price data including price changes and market performance indicators.
+
+**Example Request**
+
+```text
+https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=crude_oil
+```
+
+**Example Response**
+
+```json
+{
+  "result": {
+    "output": [
+      {
+        "commodity_name": "crude oil",
+        "commodity_unit": "usd/bbl",
+        "commodity_price": "63.72",
+        "price_change_day": "-1.08",
+        "percentage_day": "-1.67%",
+        "datetime": "2025-08-26T11:23:00.000"
+      }
+    ]
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>Natural Gas Price API Example</summary>
+
+Get natural gas price data for energy market applications and analytics tools.
+
+**Example Request**
+
+```text
+https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=natural_gas
+```
+
+**Example Response**
+
+```json
+{
+  "result": {
+    "output": [
+      {
+        "commodity_name": "natural gas",
+        "commodity_unit": "usd/mmbtu",
+        "commodity_price": "2.91",
+        "price_change_day": "0.04",
+        "percentage_day": "1.39%",
+        "datetime": "2025-08-26T11:23:00.000"
+      }
+    ]
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>Metal Price API Example</summary>
+
+Get industrial metal price data such as copper, aluminum and lithium.
+
+**Example Request**
+
+```text
+https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=copper
+```
+
+**Example Response**
+
+```json
+{
+  "result": {
+    "output": [
+      {
+        "commodity_name": "copper",
+        "commodity_unit": "usd/lbs",
+        "commodity_price": "4.43",
+        "price_change_day": "0.03",
+        "percentage_day": "0.68%",
+        "datetime": "2025-08-26T11:23:00.000"
+      }
+    ]
+  }
+}
+```
+
+Learn more: [Metal Price API](https://fin2dev.com/blog/metal-price-api/)
+
+</details>
+
+<details>
+<summary>Agricultural Commodities Price API Example</summary>
+
+Get agricultural commodity price data such as corn, wheat and coffee.
+
+**Example Request**
+
+```text
+https://apidata.fin2dev.com/v1/commodities?key=YOUR_API_KEY&commodity_name=corn
+```
+
+**Example Response**
+
+```json
+{
+  "result": {
+    "output": [
+      {
+        "commodity_name": "corn",
+        "commodity_unit": "usd/bu",
+        "commodity_price": "4.21",
+        "price_change_day": "-0.02",
+        "percentage_day": "-0.47%",
+        "datetime": "2025-08-26T11:23:00.000"
+      }
+    ]
+  }
+}
+```
+
+Learn more: [Agricultural Commodities Price API](https://fin2dev.com/blog/agricultural-commodities-price-api/)
+
+</details>
+
 ## Code Examples
 
 <details>
