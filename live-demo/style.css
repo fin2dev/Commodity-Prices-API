@@ -96,3 +96,42 @@ pre {
   overflow-x: auto;
   min-height: 120px;
 }
+
+.demo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.demo-header h1 {
+  margin: 0;
+}
+
+.github-link {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #5fae98;
+}
+
+.github-link:visited {
+  color: #5fae98;
+}
+
+.github-link:hover {
+  color: #478f7c;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .demo-header {
+    display: block;
+  }
+
+  .github-link {
+    display: inline-block;
+    margin-top: 8px;
+  }
+}
